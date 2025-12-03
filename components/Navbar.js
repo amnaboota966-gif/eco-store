@@ -29,14 +29,14 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, SubTotal }) => {
   return (
     <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-4 shadow-md relative">
       {/* Logo */}
-      <div className="logo mx-9">
+      <div className="logo mx-0">
         <Link href={"/"}>
-          <img src="/logo.png" alt="Logo" className="w-32"/>
+          <img src="/logo.png" alt="Logo" className="w-90 h-15"/>
         </Link>
       </div>
 
       {/* Navigation Links */}
-      <div className="nav flex-1">
+      <div className="nav flex-1 ml-4">
         <ul className="flex items-center space-x-8 font-bold md:text-xl">
           <li><Link href={"/tshirt"}>Tshirts</Link></li>
           <li><Link href={"/mugs"}>Mugs</Link></li>
