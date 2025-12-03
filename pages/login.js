@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";  // FIXED
 
 export default function Login() {
   const router = useRouter();
@@ -14,7 +15,6 @@ export default function Login() {
   const handleSendOtp = async (e) => {
     e.preventDefault();
 
-    // ✅ Prevent sending OTP if phone or name is empty
     if (!phone || !name) {
       alert("Please enter both name and phone number.");
       return;
@@ -22,11 +22,10 @@ export default function Login() {
 
     setLoading(true);
 
-    // ✅ Simulate OTP sending
     setTimeout(() => {
       setLoading(false);
       setOtpSent(true);
-      alert(`OTP sent to ${phone}`); // Optional: show OTP sent message
+      alert(`OTP sent to ${phone}`);
     }, 2000);
   };
 
@@ -39,8 +38,7 @@ export default function Login() {
     }
 
     alert("OTP Verified!");
-
-    router.push("/"); // Redirect to home
+    router.push("/");
   };
 
   return (
@@ -80,6 +78,13 @@ export default function Login() {
                 placeholder="Phone number"
                 className="w-full p-3 border border-gray-300 rounded-md mb-4"
               />
+
+              <p className="text-center text-sm">
+                You don't have an account?{" "}
+                <Link href="/signup" className="text-pink-600 font-semibold">
+                  Register
+                </Link>
+              </p>
             </>
           )}
 

@@ -9,10 +9,11 @@ const ProductPage = ({ addToCart }) => {
 
   // Example product details
   const item = {
-    code: "hoodie002",
-    name: slug || "Stikers by CodeWear",
-    price: 30,
-    
+    code: "Mousepads001",
+    name: slug || "Mousepads by CodeWear",
+    price: 799,
+    varient: "Classic",
+    size: "M",
   };
 
   useEffect(() => {

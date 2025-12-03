@@ -9,7 +9,7 @@ const ProductPage = ({ addToCart }) => {
 
   // Example product details
   const item = {
-    code: "hoodie004",
+    code: "Mugs001",
     name: slug || "Mugs by CodeWear",
     price: 299,
     varient: "Classic",

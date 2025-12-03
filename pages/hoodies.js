@@ -7,7 +7,7 @@ const Hoodies = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -21,7 +21,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -35,7 +35,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -49,7 +49,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -63,7 +63,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -77,7 +77,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -91,7 +91,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -105,7 +105,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -119,7 +119,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -133,7 +133,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -147,7 +147,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -161,7 +161,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -176,7 +176,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -190,7 +190,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -204,7 +204,7 @@ const Hoodies = () => {
                 <p className="mt-1">Rs:1299</p>
               </div>
             </Link>
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -220,7 +220,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -236,7 +236,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -252,7 +252,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -268,7 +268,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -284,7 +284,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -300,7 +300,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -316,7 +316,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -332,7 +332,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -348,7 +348,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -364,7 +364,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -380,7 +380,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -396,7 +396,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
@@ -412,7 +412,7 @@ const Hoodies = () => {
               </div>
             </Link>
 
-            <Link href={"/products/hoodin"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
+            <Link href={"/products/hoodie"} className="lg:w-1/5 md:w-1/2 p-4 w-full block shadow-lg m-6">
               <div className="relative h-60 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
