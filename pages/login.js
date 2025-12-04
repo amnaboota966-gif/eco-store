@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";  // FIXED
+import Link from "next/link";
 
 export default function Login() {
   const router = useRouter();
@@ -12,6 +12,9 @@ export default function Login() {
   const [otp, setOtp] = useState("");
   const [loading, setLoading] = useState(false);
 
+  // -----------------------------
+  // SEND OTP
+  // -----------------------------
   const handleSendOtp = async (e) => {
     e.preventDefault();
 
@@ -20,25 +23,46 @@ export default function Login() {
       return;
     }
 
+    const generatedOtp = Math.floor(100000 + Math.random() * 900000);
+
     setLoading(true);
 
-    setTimeout(() => {
-      setLoading(false);
+    const res = await fetch("/api/send-otp", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        phone: `+92${phone}`,
+        otp: generatedOtp,
+      }),
+    });
+
+    setLoading(false);
+
+    if (res.ok) {
+      localStorage.setItem("otp", generatedOtp);
       setOtpSent(true);
-      alert(`OTP sent to ${phone}`);
-    }, 2000);
+      alert("OTP sent successfully!");
+    } else {
+      alert("Failed to send OTP");
+    }
   };
 
+  // -----------------------------
+  // VERIFY OTP
+  // -----------------------------
   const handleVerifyOtp = (e) => {
     e.preventDefault();
 
-    if (!otp) {
-      alert("Please enter OTP.");
-      return;
-    }
+    const savedOtp = localStorage.getItem("otp");
 
-    alert("OTP Verified!");
-    router.push("/");
+    if (otp === savedOtp) {
+      alert("OTP Verified!");
+      router.push("/");
+    } else {
+      alert("Wrong OTP!");
+    }
   };
 
   return (
@@ -82,7 +106,7 @@ export default function Login() {
               <p className="text-center text-sm">
                 You don't have an account?{" "}
                 <Link href="/signup" className="text-pink-600 font-semibold">
-                  Register
+                  Sign up
                 </Link>
               </p>
             </>
