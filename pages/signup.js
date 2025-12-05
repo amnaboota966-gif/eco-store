@@ -1,67 +1,63 @@
-import React, { useState } from 'react'
+"use client";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
-const Register = () => {
-  const [email, setEmail] = useState("")
-  const [password, setPassword] = useState("")
+export default function Signup() {
+  const router = useRouter();
 
-  const handleRegister = (e) => {
-    e.preventDefault()
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [password, setPassword] = useState("");
 
-    if (!email || !password) {
-      alert("Please fill all fields")
-      return
+  const handleSignup = (e) => {
+    e.preventDefault();
+
+    if (!name || !phone || !password) {
+      alert("Please fill all fields");
+      return;
     }
 
-    localStorage.setItem("userEmail", email)
-    localStorage.setItem("userPassword", password)
+    const user = { name, phone, password };
 
-    alert("Account Created Successfully!")
-    window.location.href = "/login"
-  }
+    localStorage.setItem("user", JSON.stringify(user));
+
+    alert("Account Created!");
+    router.push("/login");
+  };
 
   return (
-    <div style={{ width: 300, margin: "100px auto" }}>
-      <h2>Create Account</h2>
+    <div className="flex flex-col items-center justify-center min-h-screen px-5">
+      <h1 className="text-3xl font-bold mb-6 text-center">Signup</h1>
 
-      <form onSubmit={handleRegister}>
-        <input 
-          type="email"
-          placeholder="Enter email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={input}
+      <form className="w-full max-w-md p-5 bg-white rounded-lg" onSubmit={handleSignup}>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          className="w-full p-3 border rounded-md mb-4"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
 
-        <input 
+        <input
+          type="number"
+          placeholder="Phone Number"
+          className="w-full p-3 border rounded-md mb-4"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+        />
+
+        <input
           type="password"
-          placeholder="Create password"
+          placeholder="Password"
+          className="w-full p-3 border rounded-md mb-4"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          style={input}
         />
 
-        <button type="submit" style={btn}>Register</button>
+        <button className="w-full bg-pink-500 text-white py-3 rounded-md font-semibold">
+          Create Account
+        </button>
       </form>
     </div>
-  )
+  );
 }
-
-const input = {
-  width: "100%",
-  padding: "10px",
-  margin: "10px 0",
-  borderRadius: "5px",
-  border: "1px solid #ccc",
-}
-
-const btn = {
-  width: "100%",
-  padding: "10px",
-  background: "green",
-  color: "white",
-  border: "none",
-  borderRadius: "5px",
-  cursor: "pointer",
-}
-
-export default Register

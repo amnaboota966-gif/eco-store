@@ -38,7 +38,7 @@ const ProductPage = ({ addToCart }) => {
           <img
             alt="product"
             className="lg:w-1/2 w-full lg:h-auto object-cover object-center rounded"
-            src="https://th.bing.com/th/id/OIP.1MFbexwcoKOuN09feHYBNwHaHa?w=178&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+            src="https://th.bing.com/th/id/OIP.kzg-YfHl79UW4F4XBwgJWQHaHa?w=163&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
           />
 
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

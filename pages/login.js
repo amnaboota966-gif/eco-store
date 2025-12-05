@@ -95,11 +95,12 @@ export default function Login() {
                 placeholder="Enter Name"
                 className="w-full p-3 border border-gray-300 rounded-md mb-4"
               />
+
               <input
                 type="number"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                placeholder="Phone number"
+                placeholder="Phone number (without 0)"
                 className="w-full p-3 border border-gray-300 rounded-md mb-4"
               />
 
